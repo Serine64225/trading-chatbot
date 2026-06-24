@@ -37,7 +37,7 @@ MLflow (tracking & observabilité)
 
 ## 🚀 Lancer l'appli
 
-### 1. Installer les dépendances
+### 1. Installer les dépendances (à faire une seule fois seulement)
 pip install -r requirements.txt
 
 ### 2. Terminal 1 — Lancer Ollama

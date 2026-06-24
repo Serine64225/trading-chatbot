@@ -35,22 +35,31 @@ MLflow (tracking & observabilité)
 
 ## Lancement
 
+## 🚀 Lancer l'appli
+
 ### 1. Installer les dépendances
 pip install -r requirements.txt
 
-### 2. Lancer Ollama
+### 2. Terminal 1 — Lancer Ollama
 ollama run llama3
 
-### 3. Lancer le chatbot
-python3 chatbot.py
+### 3. Terminal 2 — Lancer l'interface web
+cd Mon_Chatbot
+streamlit run app.py
 
-### 4. Visualiser les runs MLflow
+### 4. Ouvrir dans le navigateur
+http://localhost:8501
+
+### 5. Terminal 3 — Visualiser les runs MLflow (optionnel)
+cd Mon_Chatbot
 mlflow ui
+→ http://127.0.0.1:5000
 
-## Exemples d'utilisation
+## 💬 Exemples d'utilisation
 
 Analyse AAPL
-Compare TSLA et MSFT
+Analyse TSLA
+Compare MSFT et NVDA
 
 ## Auteure
 

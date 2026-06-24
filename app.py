@@ -138,7 +138,7 @@ if prompt := st.chat_input("Analyse AAPL, Compare TSLA et MSFT..."):
             debut = time.time()
             try:
                 response = requests.post(
-                    "http://localhost:11434/api/chat",
+                    "http://host.docker.internal:11434/api/chat",
                     json={
                         "model": "llama3",
                         "messages": [system_prompt] + st.session_state.conversation,

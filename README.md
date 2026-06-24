@@ -34,8 +34,21 @@ MLflow (tracking & observabilité)
 - requests
 
 ## Lancement
+##  Lancer l'appli
 
-## 🚀 Lancer l'appli
+### Prérequis
+ollama run llama3
+
+### Option 1 — Sans Docker
+streamlit run app.py
+
+### Option 2 — Avec Docker
+docker run -p 8501:8501 trading-chatbot
+
+### Puis ouvrir
+http://localhost:8501
+
+##  Lancer l'appli
 
 ### 1. Installer les dépendances (à faire une seule fois seulement)
 pip install -r requirements.txt

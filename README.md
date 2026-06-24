@@ -1,15 +1,15 @@
-# 📈 Trading Chatbot — MLOps Project
+# Trading Chatbot — MLOps Project
 
 Chatbot d'analyse boursière en temps réel, propulsé par Llama3 (via Ollama) et tracké avec MLflow.
 
-## 🎯 Objectif
+## Objectif
 
 Projet MLOps complet démontrant :
 - La collecte de données financières en temps réel
 - L'intégration d'un LLM local (Llama3)
 - Le tracking d'expériences avec MLflow
 
-## 🏗️ Architecture
+## Architecture
 
 yfinance (données réelles)
 
@@ -25,7 +25,7 @@ Ollama + Llama3 (LLM local)
 
 MLflow (tracking & observabilité)
 
-## 🛠️ Stack technique
+## Stack technique
 
 - Python 3.x
 - Ollama + Llama3
@@ -33,7 +33,7 @@ MLflow (tracking & observabilité)
 - MLflow
 - requests
 
-## 🚀 Lancement
+## Lancement
 
 ### 1. Installer les dépendances
 pip install -r requirements.txt
@@ -47,11 +47,11 @@ python3 chatbot.py
 ### 4. Visualiser les runs MLflow
 mlflow ui
 
-## 💬 Exemples d'utilisation
+## Exemples d'utilisation
 
 Analyse AAPL
 Compare TSLA et MSFT
 
-## 👩‍💻 Auteure
+## Auteure
 
-Serine Nehal — Étudiante ingénieure ISEP (Génie Numérique)
+Serine Nehal — Étudiante ingénieure ISEP 
